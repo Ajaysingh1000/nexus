@@ -1,0 +1,17 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#root{
+    background-color: rgb(182, 158, 123);
+    padding: 40px;
+    text-align: center;
+    width: 1500px;
+}

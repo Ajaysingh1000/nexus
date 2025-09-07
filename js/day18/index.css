@@ -1,0 +1,19 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#root{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    height: 50px;
+    width: 50px;
+}

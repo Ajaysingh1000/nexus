@@ -1,0 +1,47 @@
+
+
+/* #quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-size: 50px;
+    font-weight: 500;  */
+/* } */
+
+/* button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+/* #root{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+
+} */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#root2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button,#result{
+    margin-top: 10px;
+    margin-left: 60px;
+}

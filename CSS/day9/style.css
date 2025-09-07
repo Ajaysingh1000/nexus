@@ -1,0 +1,155 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  white
+}
+
+.first{
+    margin-bottom: 20px;
+}
+
+.first , .second{
+    margin-left: 50px;
+}
+
+.dining, .delivery{
+    margin-right: 100px;
+}
+
+.din , .del, .night{
+
+    position: relative;
+    bottom: 20px;
+    
+}
+
+.searching{
+    margin-top: 20px;
+}
+
+.brand{
+    color: rgb(214, 25, 25);
+    margin-right: 200px;
+    font-size: 25px;
+}
+
+.second img{
+    height: 70px;
+    width: 70px;
+}
+
+.searching{
+    height: 30px;
+    width: 400px;
+    padding-left: 10px;
+    position: relative;
+    bottom:10px
+}
+
+button{
+    width: 55px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+    color: gray;
+}
+
+.search{
+    margin-right: 200px;
+
+}
+
+
+.head{
+    margin-left: 200px;
+}
+
+
+.card{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 20px solid white;
+    border-radius: 20px;
+}
+
+.card:hover{
+    background-color: white;
+    border-color: white;
+}
+
+
+.Restaurant{
+    position: relative;
+    padding: 5px;
+}
+.Box{
+    display: inline-block;
+}
+
+img{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.image{
+    position: relative;
+}
+
+.image p{
+    background-color: rgba(15, 15, 227, 0.5);
+    position: absolute;
+    color: white;
+    bottom: 15px;
+    left: 8px;
+    width: 80%;
+}
+
+.Restaurant_name{
+
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.rating{
+    background-color: green;
+    height: 20px;
+    padding: 5px;
+    position: absolute;
+    right: 5px;
+    color: white;
+    border-radius: 8px;
+}
+
+.food , .location{
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    left:7px;
+    color:rgb(88,88,88)
+}
+
+.price{
+    position: absolute;
+    right: 5px;
+
+}
+
+.distance{
+    position: absolute;
+    right: 5px;
+    font-weight: bold;
+}
+

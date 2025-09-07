@@ -1,0 +1,32 @@
+.container{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.Box{
+    height: 100px;
+    width: 100px;
+    margin:5px;
+    border: 5px solid black;
+}
+
+.Box1{
+    background-color: blue;
+}
+.Box2{
+    background-color: green;
+}
+.Box3{
+    background-color: red;
+    /* order: -1; */
+}
+.Box4{
+    background-color: orange;
+    order: -1;
+}

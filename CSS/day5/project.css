@@ -1,0 +1,15 @@
+
+.card{
+
+    background-color: aqua;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 20px 20px 20px 35vw;
+    width: 30vw;
+    height: 10vw;
+    text-align: center;
+}
+
+.card:hover{
+    transform: scale(1);
+}

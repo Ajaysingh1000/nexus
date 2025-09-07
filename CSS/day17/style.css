@@ -1,0 +1,52 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.cont1{
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.cont2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 3s;
+    animation-name: movement;
+    animation-duration: 1s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+    position: relative;
+
+}
+
+@keyframes  movement{
+
+    from{
+        top:0px;
+        left:0px;
+    }
+
+    to{
+        top:0px;
+        left:1000px
+    }
+    
+}
+

@@ -1,0 +1,22 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 2px solid black; */
+    background-color: rgb(53, 146, 146);
+}
+
+button{
+    height: 50px;
+    width: 100px;
+}

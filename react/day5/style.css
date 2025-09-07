@@ -1,0 +1,27 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+#root{
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border: 2px solid black; */
+    background-color: rgb(53, 146, 146);
+    text-align: center;
+}
+
+button{
+    margin-right: 10px;
+    height: 40px;
+    width: 60px;
+}

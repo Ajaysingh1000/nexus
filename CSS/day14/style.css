@@ -1,0 +1,27 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+
+    height: 1000px;
+    width: 1000px;
+    background-color: blueviolet;
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+}
+
+.Box{
+    background-color: orange;
+    border: 5px solid black;
+}

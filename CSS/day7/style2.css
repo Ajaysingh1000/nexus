@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.first {
+    background-color: green;
+    width: 33.33%;
+}
+
+.second {
+    background-color: white;
+    width: 33.33%;
+}
+
+.third {
+    background-color: orange;
+    width: 33.33%;
+}
