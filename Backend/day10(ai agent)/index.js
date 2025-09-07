@@ -3,7 +3,7 @@ const readlineSync = require("readline-sync");
 const fetch = require("node-fetch");
 
 const ai = new GoogleGenAI({
-  apiKey: "AIzaSyBk_JH1dFHjaTV3Qgn7dA6_sLSUU6vF5GA",
+  apiKey: "API KEY",
 });
 
 let conversationHistory = [];
